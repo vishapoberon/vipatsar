@@ -1,0 +1,17 @@
+NAME      = strutils2
+VERSION   = 0.1.0
+
+AUTHOR    = noch
+LICENSE   = GPL-3
+
+REMOTE    = 
+
+DEPS      = 
+
+RUN       = 
+MAIN      = 
+BUILD     =  ; 
+
+TEST_RUN  = 
+TEST_MAIN = 
+TEST      = 

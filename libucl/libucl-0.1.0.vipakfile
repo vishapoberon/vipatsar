@@ -1,0 +1,17 @@
+NAME      = libucl
+VERSION   = 0.1.0
+
+AUTHOR    = antranigv
+LICENSE   = BSD
+
+REMOTE    = git https://github.com/antranigv/voclibucl 0.1.0
+
+DEPS      = 
+
+RUN       = 
+MAIN      = 
+BUILD     = voc -s src/ucl.Mod;CFLAGS=-lucl voc -m test/libucl_test.Mod;cp test/example.ucl .
+
+TEST_RUN  = 
+TEST_MAIN = 
+TEST      = 

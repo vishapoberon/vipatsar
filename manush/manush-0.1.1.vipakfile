@@ -1,0 +1,17 @@
+NAME      = manush
+VERSION   = 0.1.1
+
+AUTHOR    = noch
+LICENSE   = BSD 2-Clause License
+
+REMOTE    = git https://github.com/illuria/manush 0.1
+
+DEPS      = lists:0.1 opts:0.1 pipes:0.1 skprJson:0.1
+
+RUN       = 
+MAIN      = 
+BUILD     = voc -s src/mnshList.Mod;voc -s src/mnshUnix.Mod;voc -s src/mnshDefs.Mod;voc -s src/mnshCrt.Mod;voc -s src/mnshStorage.Mod;voc -s src/mnshExtTools.Mod;voc -s src/mnshTerm.Mod;voc -s src/mnshInput.Mod;voc -M src/manush.Mod
+
+TEST_RUN  = 
+TEST_MAIN = 
+TEST      = 

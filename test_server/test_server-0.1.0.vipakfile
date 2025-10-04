@@ -1,0 +1,17 @@
+NAME      = test_server
+VERSION   = 0.1.0
+
+AUTHOR    = noch
+LICENSE   = GPL-3
+
+REMOTE    = git https://github.com/norayr/test_server 0.1.0
+
+DEPS      = lists:0.1.0 Internet:0.1.0 time:0.1.0 fifo:0.1.0
+
+RUN       = 
+MAIN      = 
+BUILD     = voc -m src/testServer.Mod;voc -m src/testClient.Mod
+
+TEST_RUN  = 
+TEST_MAIN = 
+TEST      = 

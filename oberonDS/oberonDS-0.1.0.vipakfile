@@ -1,0 +1,17 @@
+NAME      = oberonDS
+VERSION   = 0.1.0
+
+AUTHOR    = InnaKhachikyan
+LICENSE   = unknown
+
+REMOTE    = git https://github.com/InnaKhachikyan/oberonDS 0.1.0
+
+DEPS      = 
+
+RUN       = 
+MAIN      = 
+BUILD     = voc -s src/DynamicArray.Mod;voc -s src/HashMap.Mod;voc -s src/Map.Mod;voc -m test/DynamicArrayTest.Mod;voc -m test/HashMapTest.Mod;voc -m test/MapTest.Mod
+
+TEST_RUN  = 
+TEST_MAIN = 
+TEST      = 

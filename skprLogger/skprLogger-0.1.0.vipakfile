@@ -1,0 +1,17 @@
+NAME      = skprLogger
+VERSION   = 0.1.0
+
+AUTHOR    = shekspir55
+LICENSE   = GPL-3
+
+REMOTE    = git https://github.com/norayr/skprLogger 0.1.0
+
+DEPS      = time:0.1.0
+
+RUN       = 
+MAIN      = 
+BUILD     = voc -s src/skprLogger.Mod
+
+TEST_RUN  = 
+TEST_MAIN = 
+TEST      = 
