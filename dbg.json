@@ -2,16 +2,16 @@
   "Package": "dbg",
   "Author":  "noch",
   "License": "GPL-3",
-  "Version": "0.1",
+  "Version": "0.1.0",
   "Remote":
     {
     "type": "git",
     "path": "https://github.com/norayr/dbg",
-    "tag" : "0.1"
+    "tag" : "0.1.0"
     },
   "Dependencies":
   {
-    "strutils": "0.1"
+    "strutils": "0.1.0"
   },
   "Build":
   [

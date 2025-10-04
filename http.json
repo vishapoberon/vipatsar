@@ -2,18 +2,18 @@
   "Package": "http",
   "Author":  "noch",
   "License": "GPL-3",
-  "Version": "0.1",
+  "Version": "0.1.0",
   "Remote":
     {
     "type": "git",
     "path": "https://github.com/norayr/http",
-    "tag" : "0.1"
+    "tag" : "0.1.0"
     },
   "Dependencies":
   {
-    "strutils": "0.1",
-    "base64": "0.1",
-    "Internet": "0.1"
+    "strutils": "0.1.0",
+    "base64": "0.1.0",
+    "Internet": "0.1.0"
   },
   "Build":
   [

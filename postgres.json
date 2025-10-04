@@ -2,16 +2,16 @@
   "Package": "postgres",
   "Author":  "noch",
   "License": "GPL-3",
-  "Version": "0.1",
+  "Version": "0.1.0",
   "Remote":
     {
     "type": "git",
     "path": "https://github.com/norayr/postgres",
-    "tag" : "0.1"
+    "tag" : "0.1.0"
     },
    "Dependencies":
    {
-     "pipes": "0.1"
+     "pipes": "0.1.0"
    },
    "Build":
    [

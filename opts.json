@@ -2,16 +2,16 @@
   "Package": "opts",
   "Author":  "noch",
   "License": "GPL-3",
-  "Version": "0.1",
+  "Version": "0.1.0",
   "Remote":
     {
     "type": "git",
     "path": "https://github.com/norayr/opts",
-    "tag" : "0.1"
+    "tag" : "0.1.0"
     },
   "Dependencies":
   {
-    "lists": "0.1"
+    "lists": "0.1.0"
   },
   "Build":
   [

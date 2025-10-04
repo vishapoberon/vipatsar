@@ -2,7 +2,7 @@
   "Package": "cairo",
   "Author": "une",
   "License": "GPL-3",
-  "Version": "0.1",
+  "Version": "0.1.0",
 
   "Remote": {
     "Type": "https",

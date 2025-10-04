@@ -2,7 +2,7 @@
     "Package": "armscii2",
     "Author": "noch",
     "License": "GPL-3",
-    "Version": "0.1",
+    "Version": "0.1.0",
     "Remote": {
         "Type": "https",
         "Files": [

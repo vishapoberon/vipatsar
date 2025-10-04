@@ -2,19 +2,19 @@
   "Package": "irc",
   "Author":  "noch",
   "License": "GPL-3",
-  "Version": "0.1",
+  "Version": "0.1.0",
   "Remote":
     {
     "type": "git",
     "path": "https://github.com/norayr/irc",
-    "tag" : "0.1"
+    "tag" : "0.1.0"
     },
   "Dependencies":
   {
-    "time": "0.1",
-    "Internet": "0.1",
-    "lists": "0.1",
-    "dbg": "0.1"
+    "time": "0.1.0",
+    "Internet": "0.1.0",
+    "lists": "0.1.0",
+    "dbg": "0.1.0"
   },
   "Build":
   [

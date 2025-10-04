@@ -2,12 +2,12 @@
   "Package": "libxo",
   "Author":  "antranigv",
   "License": "BSD",
-  "Version": "0.1",
+  "Version": "0.1.0",
   "Remote":
     {
     "type": "git",
     "path": "https://github.com/antranigv/voclibxo",
-    "tag" : "0.1"
+    "tag" : "0.1.0"
     },
    "Build":
    [

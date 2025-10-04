@@ -2,12 +2,12 @@
   "Package": "oberonDS",
   "Author":  "InnaKhachikyan",
   "License": "unknown",
-  "Version": "0.1",
+  "Version": "0.1.0",
   "Remote":
     {
     "type": "git",
     "path": "https://github.com/InnaKhachikyan/oberonDS",
-    "tag" : "0.1"
+    "tag" : "0.1.0"
     },
   "Build":
     [

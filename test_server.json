@@ -2,19 +2,19 @@
   "Package": "test_server",
   "Author":  "noch",
   "License": "GPL-3",
-  "Version": "0.1",
+  "Version": "0.1.0",
   "Remote":
     {
     "type": "git",
     "path": "https://github.com/norayr/test_server",
-    "tag" : "0.1"
+    "tag" : "0.1.0"
     },
   "Dependencies":
   {
-    "lists": "0.1",
-    "Internet":"0.1",
-    "time": "0.1",
-    "fifo": "0.1"
+    "lists": "0.1.0",
+    "Internet":"0.1.0",
+    "time": "0.1.0",
+    "fifo": "0.1.0"
   },
   "Build":
   [

@@ -2,12 +2,12 @@
   "Package": "Internet",
   "Author":  "noch",
   "License": "GPL-3",
-  "Version": "0.1",
+  "Version": "0.1.0",
   "Remote":
     {
     "type": "git",
     "path": "https://github.com/norayr/armscii",
-    "tag" : "0.1"
+    "tag" : "0.1.0"
     },
     "Build":
     [
