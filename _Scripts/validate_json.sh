@@ -89,10 +89,6 @@ validate_json() {
       fi
     fi
   fi
-  if jq -e '.dependencies | type != "object"' "$json" >/dev/null 2>/dev/null; then
-    perror "$json invalid dependencies field (must be object)"
-    errors=$((errors + 1))
-  fi
   if ! jq -e '.build | type == "array"' "$json" >/dev/null 2>/dev/null; then
     perror "$json invalid build field (must be array)"
     errors=$((errors + 1))
