@@ -1,0 +1,17 @@
+NAME      = irc_bot
+VERSION   = 0.1.0
+
+AUTHOR    = noch
+LICENSE   = GPL-3
+
+REMOTE    = git https://github.com/norayr/irc_bot 0.1.0
+
+DEPS      = opts:0.1.0 lists:0.1.0 internet:0.1.0 time:0.1.0 irc:0.1.0
+
+RUN       = 
+MAIN      = 
+BUILD     = voc -m src/vocbot.Mod
+
+TEST_RUN  = 
+TEST_MAIN = 
+TEST      = 

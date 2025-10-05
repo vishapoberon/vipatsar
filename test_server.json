@@ -1,24 +1,27 @@
 {
-  "Package": "test_server",
-  "Author":  "noch",
-  "License": "GPL-3",
-  "Version": "0.1",
-  "Remote":
-    {
+  "package": "test_server",
+  "author": "noch",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
     "type": "git",
     "path": "https://github.com/norayr/test_server",
-    "tag" : "0.1"
-    },
-  "Dependencies":
-  {
-    "lists": "0.1",
-    "Internet":"0.1",
-    "time": "0.1",
-    "fifo": "0.1"
+    "tag": "0.1.0"
   },
-  "Build":
-  [
-     {"command": "voc -m", "file": "src/testServer.Mod"},
-     {"command": "voc -m", "file": "src/testClient.Mod"}
+  "dependencies": {
+    "lists": "0.1.0",
+    "internet": "0.1.0",
+    "time": "0.1.0",
+    "fifo": "0.1.0"
+  },
+  "build": [
+    {
+      "command": "voc -m",
+      "file": "src/testServer.Mod"
+    },
+    {
+      "command": "voc -m",
+      "file": "src/testClient.Mod"
+    }
   ]
 }

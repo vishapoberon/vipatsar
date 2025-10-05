@@ -1,0 +1,17 @@
+NAME      = postgres
+VERSION   = 0.1.0
+
+AUTHOR    = noch
+LICENSE   = GPL-3
+
+REMOTE    = git https://github.com/norayr/postgres 0.1.0
+
+DEPS      = pipes:0.1.0
+
+RUN       = 
+MAIN      = 
+BUILD     = voc -s postgres.Mod;voc -m PostgresTests.Mod
+
+TEST_RUN  = 
+TEST_MAIN = 
+TEST      = 

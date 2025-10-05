@@ -1,0 +1,17 @@
+NAME      = time
+VERSION   = 0.1.0
+
+AUTHOR    = noch
+LICENSE   = GPL-3
+
+REMOTE    = git https://github.com/norayr/time 0.1.0
+
+DEPS      = 
+
+RUN       = 
+MAIN      = 
+BUILD     = voc -s src/time.Mod
+
+TEST_RUN  = 
+TEST_MAIN = 
+TEST      = 

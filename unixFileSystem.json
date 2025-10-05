@@ -1,17 +1,21 @@
 {
-  "Package": "unixFileSystem",
-  "Author":  "noch",
-  "License": "GPL-3",
-  "Version": "0.1",
-  "Remote":
-    {
+  "package": "unixFileSystem",
+  "author": "noch",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
     "type": "git",
     "path": "https://github.com/norayr/unixFileSystem",
-    "tag" : "0.1"
+    "tag": "0.1.0"
+  },
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "src/UnixFS.Mod"
     },
-  "Build":
-  [
-    {"command": "voc -s", "file": "src/UnixFS.Mod"},
-    {"command": "voc -m", "file": "test/TestUnixFS.Mod"}
+    {
+      "command": "voc -m",
+      "file": "test/TestUnixFS.Mod"
+    }
   ]
 }

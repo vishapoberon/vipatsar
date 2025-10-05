@@ -1,0 +1,17 @@
+NAME      = libxo
+VERSION   = 0.1.0
+
+AUTHOR    = antranigv
+LICENSE   = BSD
+
+REMOTE    = git https://github.com/antranigv/voclibxo 0.1.0
+
+DEPS      = 
+
+RUN       = 
+MAIN      = 
+BUILD     = voc -s src/xo.Mod;CFLAGS=-lxo voc -m test/libxo_test.Mod
+
+TEST_RUN  = 
+TEST_MAIN = 
+TEST      = 

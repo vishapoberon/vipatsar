@@ -1,19 +1,29 @@
 {
-  "Package": "vpicl",
-  "Author":  "noch",
-  "License": "GPL-3",
-  "Version": "0.1",
-  "Remote":
-    {
+  "package": "vpicl",
+  "author": "noch",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
     "type": "git",
     "path": "https://github.com/norayr/vpicl",
-    "tag" : "0.1"
+    "tag": "0.1.0"
+  },
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "POutput.Mod"
     },
-  "Build":
-  [
-    {"command": "voc -s", "file": "POutput.Mod"},
-    {"command": "voc -s", "file": "PErrors.Mod"},
-    {"command": "voc -s", "file": "PICS.Mod"},
-    {"command": "voc -m", "file": "PICL.Mod"}
+    {
+      "command": "voc -s",
+      "file": "PErrors.Mod"
+    },
+    {
+      "command": "voc -s",
+      "file": "PICS.Mod"
+    },
+    {
+      "command": "voc -m",
+      "file": "PICL.Mod"
+    }
   ]
 }

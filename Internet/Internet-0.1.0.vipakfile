@@ -1,0 +1,17 @@
+NAME      = Internet
+VERSION   = 0.1.0
+
+AUTHOR    = noch
+LICENSE   = GPL-3
+
+REMOTE    = git https://github.com/norayr/Internet 0.1.0
+
+DEPS      = time:0.1.0
+
+RUN       = 
+MAIN      = 
+BUILD     = voc -s src/netTypes.Mod;voc -s src/netdb.Mod;voc -s src/netSockets.Mod;voc -s src/Internet.Mod;voc -s src/netForker.Mod;voc -s src/server.Mod;voc -m tst/testClient.Mod;voc -m tst/testServer.Mod
+
+TEST_RUN  = 
+TEST_MAIN = 
+TEST      = 

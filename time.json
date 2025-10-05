@@ -1,16 +1,17 @@
 {
-  "Package": "time",
-  "Author":  "noch",
-  "License": "GPL-3",
-  "Version": "0.1",
-  "Remote":
-    {
+  "package": "time",
+  "author": "noch",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
     "type": "git",
     "path": "https://github.com/norayr/time",
-    "tag" : "0.1"
-    },
-  "Build":
-  [
-    {"command": "voc -s", "file": "src/time.Mod"}
+    "tag": "0.1.0"
+  },
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "src/time.Mod"
+    }
   ]
 }

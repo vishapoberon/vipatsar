@@ -1,24 +1,24 @@
 {
-  "Package": "irc_bot",
-  "Author":  "noch",
-  "License": "GPL-3",
-  "Version": "0.1",
-  "Remote":
-    {
+  "package": "irc_bot",
+  "author": "noch",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
     "type": "git",
     "path": "https://github.com/norayr/irc_bot",
-    "tag" : "0.1"
-    },
-  "Dependencies":
-  {
-    "opts": "0.1",
-    "lists":"0.1",
-    "Internet": "0.1",
-    "time": "0.1",
-    "irc": "0.1"
+    "tag": "0.1.0"
   },
-  "Build":
-  [
-     {"command": "voc -m", "file": "src/vocbot.Mod"}
+  "dependencies": {
+    "opts": "0.1.0",
+    "lists": "0.1.0",
+    "internet": "0.1.0",
+    "time": "0.1.0",
+    "irc": "0.1.0"
+  },
+  "build": [
+    {
+      "command": "voc -m",
+      "file": "src/vocbot.Mod"
+    }
   ]
 }

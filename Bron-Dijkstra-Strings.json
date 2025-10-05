@@ -1,16 +1,17 @@
 {
-  "Package": "Bron-Dijkstra-Strings",
-  "Author":  "noch",
-  "License": "GPL-3",
-  "Version": "0.1",
-  "Remote":
-    {
+  "package": "Bron-Dijkstra-Strings",
+  "author": "noch",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
     "type": "git",
     "path": "https://github.com/norayr/Bron-Dijkstra-Strings",
-    "tag" : "0.1"
-    },
-   "Build":
-   [
-    {"command": "voc -s", "file": "bdStrings.Mod"}
-   ]
+    "tag": "0.1.0"
+  },
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "bdStrings.Mod"
+    }
+  ]
 }

@@ -1,0 +1,17 @@
+NAME      = diaspora
+VERSION   = 0.1.0
+
+AUTHOR    = noch
+LICENSE   = GPL-3
+
+REMOTE    = git https://github.com/norayr/diaspora 0.1.0
+
+DEPS      = lists:0.1.0 postgres:0.1.0
+
+RUN       = 
+MAIN      = 
+BUILD     = voc -s src/diasporadb.Mod;voc -s src/diasporaPost.Mod
+
+TEST_RUN  = 
+TEST_MAIN = 
+TEST      = 

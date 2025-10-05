@@ -1,18 +1,25 @@
 {
-  "Package": "strutils",
-  "Author":  "noch",
-  "License": "GPL-3",
-  "Version": "0.1",
-  "Remote":
-    {
+  "package": "strutils",
+  "author": "noch",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
     "type": "git",
     "path": "https://github.com/norayr/strutils",
-    "tag" : "0.1"
+    "tag": "0.1.0"
+  },
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "src/strTypes.Mod"
     },
-  "Build":
-    [
-     {"command": "voc -s", "file": "src/strTypes.Mod"},
-     {"command": "voc -s", "file": "src/strUtils.Mod"},
-     {"command": "voc -m", "file": "test/testStrUtils.Mod"}
-    ]
+    {
+      "command": "voc -s",
+      "file": "src/strUtils.Mod"
+    },
+    {
+      "command": "voc -m",
+      "file": "test/testStrUtils.Mod"
+    }
+  ]
 }

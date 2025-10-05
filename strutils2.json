@@ -1,28 +1,39 @@
 {
-  "Package": "strutils2",
-  "Author":  "noch",
-  "License": "GPL-3",
-  "Version": "0.1",
-  "Remote": {
-      "Type": "https",
-      "Files": [
-           {
-             "URL": "https://norayr.am/vpk/strutils/src/strTypes.Mod",
-             "AuthType": "BasicAuth",
-             "AuthCredentials": {"User": "tactun", "Password": "tactun"},
-             "MD5": "3d3a2782bb5d244824fe2fe7bd214f74"
-           },
-        {
-           "URL": "https://norayr.am/vpk/strutils/src/strUtils.Mod",
-           "AuthType": "BasicAuth",
-           "AuthCredentials": {"User": "tactun", "Password": "tactun"},
-           "MD5": "43146f0d62473f2ac05b327792ec1258"
-        }
-      ]
-     },
-  "Build":
-    [
-     {"Command": "voc -s", "File": "strTypes.Mod"},
-     {"Command": "voc -s", "File": "strUtils.Mod"}
+  "package": "strutils2",
+  "author": "noch",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
+    "type": "https",
+    "files": [
+      {
+        "url": "https://norayr.am/vpk/strutils/src/strTypes.Mod",
+        "authtype": "BasicAuth",
+        "authcredentials": {
+          "user": "tactun",
+          "password": "tactun"
+        },
+        "md5": "3d3a2782bb5d244824fe2fe7bd214f74"
+      },
+      {
+        "url": "https://norayr.am/vpk/strutils/src/strUtils.Mod",
+        "authtype": "BasicAuth",
+        "authcredentials": {
+          "user": "tactun",
+          "password": "tactun"
+        },
+        "md5": "43146f0d62473f2ac05b327792ec1258"
+      }
     ]
+  },
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "strTypes.Mod"
+    },
+    {
+      "command": "voc -s",
+      "file": "strUtils.Mod"
+    }
+  ]
 }

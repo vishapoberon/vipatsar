@@ -1,21 +1,37 @@
 {
-  "Package": "oberonDS",
-  "Author":  "InnaKhachikyan",
-  "License": "unknown",
-  "Version": "0.1",
-  "Remote":
-    {
+  "package": "oberonDS",
+  "author": "InnaKhachikyan",
+  "license": "unknown",
+  "version": "0.1.0",
+  "remote": {
     "type": "git",
     "path": "https://github.com/InnaKhachikyan/oberonDS",
-    "tag" : "0.1"
+    "tag": "0.1.0"
+  },
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "src/DynamicArray.Mod"
     },
-  "Build":
-    [
-     {"command": "voc -s", "file": "src/DynamicArray.Mod"},
-     {"command": "voc -s", "file": "src/HashMap.Mod"},
-     {"command": "voc -s", "file": "src/Map.Mod"},
-     {"command": "voc -m", "file": "test/DynamicArrayTest.Mod"},
-     {"command": "voc -m", "file": "test/HashMapTest.Mod"},
-     {"command": "voc -m", "file":  "test/MapTest.Mod"}
-    ]
+    {
+      "command": "voc -s",
+      "file": "src/HashMap.Mod"
+    },
+    {
+      "command": "voc -s",
+      "file": "src/Map.Mod"
+    },
+    {
+      "command": "voc -m",
+      "file": "test/DynamicArrayTest.Mod"
+    },
+    {
+      "command": "voc -m",
+      "file": "test/HashMapTest.Mod"
+    },
+    {
+      "command": "voc -m",
+      "file": "test/MapTest.Mod"
+    }
+  ]
 }

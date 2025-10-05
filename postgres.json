@@ -1,21 +1,24 @@
 {
-  "Package": "postgres",
-  "Author":  "noch",
-  "License": "GPL-3",
-  "Version": "0.1",
-  "Remote":
-    {
+  "package": "postgres",
+  "author": "noch",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
     "type": "git",
     "path": "https://github.com/norayr/postgres",
-    "tag" : "0.1"
+    "tag": "0.1.0"
+  },
+  "dependencies": {
+    "pipes": "0.1.0"
+  },
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "postgres.Mod"
     },
-   "Dependencies":
-   {
-     "pipes": "0.1"
-   },
-   "Build":
-   [
-    {"command": "voc -s", "file": "postgres.Mod"},
-    {"command": "voc -m", "file": "PostgresTests.Mod"}
-   ]
+    {
+      "command": "voc -m",
+      "file": "PostgresTests.Mod"
+    }
+  ]
 }

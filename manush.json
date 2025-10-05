@@ -1,32 +1,56 @@
 {
-  "Package": "manush",
-  "Author":  "noch",
-  "License": "BSD 2-Clause License",
-  "Version": "0.1.1",
-  "Remote":
-  {
+  "package": "manush",
+  "author": "noch",
+  "license": "BSD 2-Clause License",
+  "version": "0.1.1",
+  "remote": {
     "type": "git",
     "path": "https://github.com/illuria/manush",
     "branch": "master",
-    "tag" : "0.1"
+    "tag": "0.1"
   },
-  "Dependencies":
-  {
+  "dependencies": {
     "lists": "0.1",
     "opts": "0.1",
     "pipes": "0.1",
-    "skprJson": "0.1"
+    "skprjson": "0.1"
   },
-  "Build":
-  [
-    {"command": "voc -s", "file": "src/mnshList.Mod"},
-    {"command": "voc -s", "file": "src/mnshUnix.Mod"},
-    {"command": "voc -s", "file": "src/mnshDefs.Mod"},
-    {"command": "voc -s", "file": "src/mnshCrt.Mod"},
-    {"command": "voc -s", "file": "src/mnshStorage.Mod"},
-    {"command": "voc -s", "file": "src/mnshExtTools.Mod"},
-    {"command": "voc -s", "file": "src/mnshTerm.Mod"},
-    {"command": "voc -s", "file": "src/mnshInput.Mod"},
-    {"command": "voc -M", "file": "src/manush.Mod"}
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "src/mnshList.Mod"
+    },
+    {
+      "command": "voc -s",
+      "file": "src/mnshUnix.Mod"
+    },
+    {
+      "command": "voc -s",
+      "file": "src/mnshDefs.Mod"
+    },
+    {
+      "command": "voc -s",
+      "file": "src/mnshCrt.Mod"
+    },
+    {
+      "command": "voc -s",
+      "file": "src/mnshStorage.Mod"
+    },
+    {
+      "command": "voc -s",
+      "file": "src/mnshExtTools.Mod"
+    },
+    {
+      "command": "voc -s",
+      "file": "src/mnshTerm.Mod"
+    },
+    {
+      "command": "voc -s",
+      "file": "src/mnshInput.Mod"
+    },
+    {
+      "command": "voc -M",
+      "file": "src/manush.Mod"
+    }
   ]
 }

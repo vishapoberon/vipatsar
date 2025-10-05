@@ -1,22 +1,25 @@
 {
-  "Package": "diaspora",
-  "Author":  "noch",
-  "License": "GPL-3",
-  "Version": "0.1",
-  "Remote":
-    {
+  "package": "diaspora",
+  "author": "noch",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
     "type": "git",
     "path": "https://github.com/norayr/diaspora",
-    "tag" : "0.1"
-    },
-  "Dependencies":
-  {
-    "lists": "0.1",
-    "postgres": "0.1"
+    "tag": "0.1.0"
   },
-  "Build":
-  [
-    {"command": "voc -s", "file": "src/diasporadb.Mod"},
-    {"command": "voc -s", "file": "src/diasporaPost.Mod"}
+  "dependencies": {
+    "lists": "0.1.0",
+    "postgres": "0.1.0"
+  },
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "src/diasporadb.Mod"
+    },
+    {
+      "command": "voc -s",
+      "file": "src/diasporaPost.Mod"
+    }
   ]
 }

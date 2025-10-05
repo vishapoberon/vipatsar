@@ -1,22 +1,22 @@
 {
-  "Package": "cairo",
-  "Author": "une",
-  "License": "GPL-3",
-  "Version": "0.1",
-
-  "Remote": {
-    "Type": "https",
-    "Files": [
+  "package": "cairo",
+  "author": "une",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
+    "type": "https",
+    "files": [
       {
-        "URL": "https://codeberg.org/une/oberon-cairo/raw/commit/bca71235f8/Cairo.mod",
-        "AuthType": "None",
-        "MD5": "e6f3d616481b1c5da1c9eebdb2e75ae7"
+        "url": "https://codeberg.org/une/oberon-cairo/raw/commit/bca71235f8/Cairo.mod",
+        "authtype": "None",
+        "md5": "e6f3d616481b1c5da1c9eebdb2e75ae7"
       }
     ]
   },
-
-  "Build": [
-    {"Command": "voc -s", "File": "Cairo.mod"}
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "Cairo.mod"
+    }
   ]
 }
-
