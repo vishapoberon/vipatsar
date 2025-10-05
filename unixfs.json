@@ -1,16 +1,17 @@
 {
-  "Package": "unixfs",
-  "Author":  "noch",
-  "License": "GPL-3",
-  "Version": "0.1.0",
-  "Remote":
-    {
+  "package": "unixfs",
+  "author": "noch",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
     "type": "git",
     "path": "https://github.com/norayr/unixfs",
-    "tag" : "0.1.0"
-    },
-  "Build":
-  [
-    {"command": "voc -s", "file": "src/unixFiles.Mod"}
+    "tag": "0.1.0"
+  },
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "src/unixFiles.Mod"
+    }
   ]
 }

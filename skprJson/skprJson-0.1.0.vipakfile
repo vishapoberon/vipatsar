@@ -6,7 +6,7 @@ LICENSE   = GPL-3
 
 REMOTE    = git https://github.com/norayr/skprJson 0.1.0
 
-DEPS      = lists:0.1.0 skprLogger:0.1.0
+DEPS      = lists:0.1.0 skprlogger:0.1.0
 
 RUN       = 
 MAIN      = 

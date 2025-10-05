@@ -6,7 +6,7 @@ LICENSE   = GPL-3
 
 REMOTE    = git https://github.com/norayr/http 0.1.0
 
-DEPS      = strutils:0.1.0 base64:0.1.0 Internet:0.1.0
+DEPS      = strutils:0.1.0 base64:0.1.0 internet:0.1.0
 
 RUN       = 
 MAIN      = 

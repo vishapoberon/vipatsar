@@ -1,21 +1,21 @@
 {
-    "Package": "armscii2",
-    "Author": "noch",
-    "License": "GPL-3",
-    "Version": "0.1.0",
-    "Remote": {
-        "Type": "https",
-        "Files": [
-            {
-                "URL": "https://norayr.am/vpk2/armscii/ArmsciiUTF.Mod",
-                "MD5": "14790276c48db775a5fee99a48525dd9"
-            }
-        ]
-    },
-    "Build": [
-        {
-            "Command": "voc -s",
-            "File": "ArmsciiUTF.Mod"
-        }
+  "package": "armscii2",
+  "author": "noch",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
+    "type": "https",
+    "files": [
+      {
+        "url": "https://norayr.am/vpk2/armscii/ArmsciiUTF.Mod",
+        "md5": "14790276c48db775a5fee99a48525dd9"
+      }
     ]
+  },
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "ArmsciiUTF.Mod"
+    }
+  ]
 }

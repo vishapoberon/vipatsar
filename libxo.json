@@ -1,17 +1,21 @@
 {
-  "Package": "libxo",
-  "Author":  "antranigv",
-  "License": "BSD",
-  "Version": "0.1.0",
-  "Remote":
-    {
+  "package": "libxo",
+  "author": "antranigv",
+  "license": "BSD",
+  "version": "0.1.0",
+  "remote": {
     "type": "git",
     "path": "https://github.com/antranigv/voclibxo",
-    "tag" : "0.1.0"
+    "tag": "0.1.0"
+  },
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "src/xo.Mod"
     },
-   "Build":
-   [
-     {"command": "voc -s", "file": "src/xo.Mod"},
-     {"command": "CFLAGS=-lxo voc -m", "file": "test/libxo_test.Mod"}
-   ]
+    {
+      "command": "CFLAGS=-lxo voc -m",
+      "file": "test/libxo_test.Mod"
+    }
+  ]
 }

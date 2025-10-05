@@ -6,7 +6,7 @@ LICENSE   = BSD 2-Clause License
 
 REMOTE    = git https://github.com/illuria/manush 0.1
 
-DEPS      = lists:0.1 opts:0.1 pipes:0.1 skprJson:0.1
+DEPS      = lists:0.1 opts:0.1 pipes:0.1 skprjson:0.1
 
 RUN       = 
 MAIN      = 

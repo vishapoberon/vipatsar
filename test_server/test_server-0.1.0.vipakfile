@@ -6,7 +6,7 @@ LICENSE   = GPL-3
 
 REMOTE    = git https://github.com/norayr/test_server 0.1.0
 
-DEPS      = lists:0.1.0 Internet:0.1.0 time:0.1.0 fifo:0.1.0
+DEPS      = lists:0.1.0 internet:0.1.0 time:0.1.0 fifo:0.1.0
 
 RUN       = 
 MAIN      = 

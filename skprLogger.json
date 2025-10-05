@@ -1,20 +1,20 @@
 {
-  "Package": "skprLogger",
-  "Author":  "shekspir55",
-  "License": "GPL-3",
-  "Version": "0.1.0",
-  "Remote":
-    {
+  "package": "skprLogger",
+  "author": "shekspir55",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
     "type": "git",
     "path": "https://github.com/norayr/skprLogger",
-    "tag" : "0.1.0"
-    },
-  "Dependencies":
-  {
+    "tag": "0.1.0"
+  },
+  "dependencies": {
     "time": "0.1.0"
   },
-  "Build":
-  [
-     {"command": "voc -s", "file": "src/skprLogger.Mod"}
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "src/skprLogger.Mod"
+    }
   ]
 }

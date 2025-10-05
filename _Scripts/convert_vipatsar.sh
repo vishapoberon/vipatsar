@@ -1,5 +1,4 @@
 #!/bin/sh
-
 # convert_vipatsar.sh: Convert old JSON vipakfiles to new plain-text format with
 # proper file naming and versioning using convert_vipakfile.sh
 
@@ -35,8 +34,9 @@ do
   pinfo "Working on ${port}"
   cd $dir
   paction "Converting ${port}.json"
-  ../convert_vipakfile.sh -c "${port}.json"
+  ../_Scripts/convert_vipakfile.sh -c "../${port}.json"
   pinfo "Conversion done"
 
   cd - >/dev/null || return
 done
+

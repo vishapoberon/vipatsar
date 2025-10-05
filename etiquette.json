@@ -1,16 +1,17 @@
 {
-  "Package": "etiquette",
-  "Author":  "noch",
-  "License": "GPL-3",
-  "Version": "0.1.0",
-  "Remote":
-    {
+  "package": "etiquette",
+  "author": "noch",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
     "type": "git",
     "path": "https://github.com/norayr/etiquette",
-    "tag" : "0.1.0"
-    },
-  "Build":
-  [
-    {"command": "voc -m", "file": "src/etiquette.Mod"}
+    "tag": "0.1.0"
+  },
+  "build": [
+    {
+      "command": "voc -m",
+      "file": "src/etiquette.Mod"
+    }
   ]
 }
