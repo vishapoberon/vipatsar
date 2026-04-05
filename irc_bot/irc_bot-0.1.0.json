@@ -11,7 +11,7 @@
   "dependencies": {
     "opts": "0.1.0",
     "lists": "0.1.0",
-    "internet": "0.1.0",
+    "Internet": "0.1.0",
     "time": "0.1.0",
     "irc": "0.1.0"
   },
