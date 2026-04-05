@@ -1,23 +1,23 @@
 {
-  "package": "irc",
-  "author": "noch",
-  "license": "GPL-3",
-  "version": "0.1.0",
-  "remote": {
-    "type": "git",
-    "path": "https://github.com/norayr/irc",
-    "tag": "0.1.0"
+  "Package": "irc",
+  "Author": "noch",
+  "License": "GPL-3",
+  "Version": "0.1.0",
+  "Remote": {
+    "Type": "git",
+    "Path": "https://github.com/norayr/irc",
+    "Tag": "0.1.0"
   },
-  "dependencies": {
+  "Dependencies": {
     "time": "0.1.0",
     "internet": "0.1.0",
     "lists": "0.1.0",
     "dbg": "0.1.0"
   },
-  "build": [
+  "Build": [
     {
-      "command": "voc -s",
-      "file": "src/IRC.Mod"
+      "Command": "voc -s",
+      "File": "src/IRC.Mod"
     }
   ]
 }
