@@ -10,7 +10,7 @@
   },
   "Dependencies": {
     "time": "0.1.0",
-    "internet": "0.1.0",
+    "Internet": "0.1.0",
     "lists": "0.1.0",
     "dbg": "0.1.0"
   },
