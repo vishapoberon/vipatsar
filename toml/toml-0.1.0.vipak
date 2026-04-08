@@ -1,0 +1,16 @@
+[PACKAGE]
+name    = opts
+author  = noch
+license = GPL-3
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/norayr/toml
+tag  = 0.1.0
+
+[DEPS]
+lists = 0.1.0
+
+[BUILD]
+run = "voc -s src/toml.Mod"

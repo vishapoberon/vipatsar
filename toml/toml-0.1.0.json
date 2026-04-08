@@ -1,0 +1,20 @@
+{
+  "package": "opts",
+  "author": "noch",
+  "license": "GPL-3",
+  "version": "0.1.0",
+  "remote": {
+    "type": "git",
+    "path": "https://github.com/norayr/toml",
+    "tag": "0.1.0"
+  },
+  "dependencies": {
+    "lists": "0.1.0"
+  },
+  "build": [
+    {
+      "command": "voc -s",
+      "file": "src/toml.Mod"
+    }
+  ]
+}
