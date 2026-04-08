@@ -1,0 +1,13 @@
+[PACKAGE]
+name    = cairo
+author  = une
+license = GPL-3
+version = 0.1.0
+
+[REMOTE]
+type = https
+uri  = https://codeberg.org/une/oberon-cairo/raw/commit/bca71235f8/Cairo.mod
+md5  = e6f3d616481b1c5da1c9eebdb2e75ae7
+
+[BUILD]
+run = "voc -s Cairo.mod"

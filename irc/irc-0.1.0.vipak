@@ -1,0 +1,19 @@
+[PACKAGE]
+name    = irc
+author  = noch
+license = GPL-3
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/norayr/irc
+tag  = 0.1.0
+
+[DEPS]
+time     = 0.1.0
+Internet = 0.1.0
+lists    = 0.1.0
+dbg      = 0.1.0
+
+[BUILD]
+run = "voc -s src/IRC.Mod"

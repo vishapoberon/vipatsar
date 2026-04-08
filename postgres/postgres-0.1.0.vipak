@@ -1,0 +1,17 @@
+[PACKAGE]
+name    = postgres
+author  = noch
+license = GPL-3
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/norayr/postgres
+tag  = 0.1.0
+
+[DEPS]
+pipes = 0.1.0
+
+[BUILD]
+run = "voc -s postgres.Mod
+voc -m PostgresTests.Mod"

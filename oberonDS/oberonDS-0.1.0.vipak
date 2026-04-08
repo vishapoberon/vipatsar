@@ -1,0 +1,18 @@
+[PACKAGE]
+name    = oberonDS
+author  = InnaKhachikyan
+license = unknown
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/InnaKhachikyan/oberonDS
+tag  = 0.1.0
+
+[BUILD]
+run = "voc -s src/DynamicArray.Mod
+voc -s src/HashMap.Mod
+voc -s src/Map.Mod
+voc -m test/DynamicArrayTest.Mod
+voc -m test/HashMapTest.Mod
+voc -m test/MapTest.Mod"

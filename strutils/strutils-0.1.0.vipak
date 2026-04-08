@@ -1,0 +1,15 @@
+[PACKAGE]
+name    = strutils
+author  = noch
+license = GPL-3
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/norayr/strutils
+tag  = 0.1.0
+
+[BUILD]
+run = "voc -s src/strTypes.Mod
+voc -s src/strUtils.Mod
+voc -m test/testStrUtils.Mod"

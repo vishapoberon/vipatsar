@@ -1,0 +1,15 @@
+[PACKAGE]
+name    = libucl
+author  = antranigv
+license = BSD
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/antranigv/voclibucl
+tag  = 0.1.0
+
+[BUILD]
+run = "voc -s src/ucl.Mod
+CFLAGS=-lucl voc -m test/libucl_test.Mod
+cp test/example.ucl ."

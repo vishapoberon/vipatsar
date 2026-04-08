@@ -1,0 +1,18 @@
+[PACKAGE]
+name    = lists
+author  = noch
+license = GPL-3
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/norayr/lists
+tag  = 0.1.0
+
+[DEPS]
+strutils = 0.1.0
+
+[BUILD]
+run = "voc -s src/List.Mod
+voc -s src/StringList.Mod
+voc -m test/testList.Mod"

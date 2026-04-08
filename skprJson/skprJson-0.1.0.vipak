@@ -1,0 +1,18 @@
+[PACKAGE]
+name    = skprJson
+author  = shekspir55
+license = GPL-3
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/norayr/skprJson
+tag  = 0.1.0
+
+[DEPS]
+lists      = 0.1.0
+skprLogger = 0.1.0
+
+[BUILD]
+run = "voc -s src/skprCharStack.Mod
+voc -s src/skprJson.Mod"

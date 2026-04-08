@@ -1,0 +1,18 @@
+[PACKAGE]
+name    = opts
+author  = noch
+license = GPL-3
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/norayr/opts
+tag  = 0.1.0
+
+[DEPS]
+lists = 0.1.0
+
+[BUILD]
+run = "voc -s src/optsos.Mod
+voc -s src/opts.Mod
+voc -m src/testopts.Mod"

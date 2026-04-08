@@ -1,0 +1,13 @@
+[PACKAGE]
+name    = armscii2
+author  = noch
+license = GPL-3
+version = 0.1.0
+
+[REMOTE]
+type = https
+uri  = https://norayr.am/vpk2/armscii/ArmsciiUTF.Mod
+md5  = 14790276c48db775a5fee99a48525dd9
+
+[BUILD]
+run = "voc -s ArmsciiUTF.Mod"

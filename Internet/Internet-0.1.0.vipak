@@ -1,0 +1,23 @@
+[PACKAGE]
+name    = Internet
+author  = noch
+license = GPL-3
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/norayr/Internet
+tag  = 0.1.0
+
+[DEPS]
+time = 0.1.0
+
+[BUILD]
+run = "voc -s src/netTypes.Mod
+voc -s src/netdb.Mod
+voc -s src/netSockets.Mod
+voc -s src/Internet.Mod
+voc -s src/netForker.Mod
+voc -s src/server.Mod
+voc -m tst/testClient.Mod
+voc -m tst/testServer.Mod"

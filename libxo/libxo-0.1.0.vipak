@@ -1,0 +1,14 @@
+[PACKAGE]
+name    = libxo
+author  = antranigv
+license = BSD
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/antranigv/voclibxo
+tag  = 0.1.0
+
+[BUILD]
+run = "voc -s src/xo.Mod
+CFLAGS=-lxo voc -m test/libxo_test.Mod"

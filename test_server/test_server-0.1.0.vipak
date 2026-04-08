@@ -1,0 +1,20 @@
+[PACKAGE]
+name    = test_server
+author  = noch
+license = GPL-3
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/norayr/test_server
+tag  = 0.1.0
+
+[DEPS]
+lists    = 0.1.0
+Internet = 0.1.0
+time     = 0.1.0
+fifo     = 0.1.0
+
+[BUILD]
+run = "voc -m src/testServer.Mod
+voc -m src/testClient.Mod"

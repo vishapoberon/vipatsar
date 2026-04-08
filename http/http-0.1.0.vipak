@@ -1,0 +1,19 @@
+[PACKAGE]
+name    = http
+author  = noch
+license = GPL-3
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/norayr/http
+tag  = 0.1.0
+
+[DEPS]
+strutils = 0.1.0
+base64   = 0.1.0
+Internet = 0.1.0
+
+[BUILD]
+run = "voc -s src/hexIntStr.Mod
+voc -s src/http.Mod"

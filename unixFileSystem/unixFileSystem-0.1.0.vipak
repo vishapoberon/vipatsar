@@ -1,0 +1,14 @@
+[PACKAGE]
+name    = unixFileSystem
+author  = noch
+license = GPL-3
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/norayr/unixFileSystem
+tag  = 0.1.0
+
+[BUILD]
+run = "voc -s src/UnixFS.Mod
+voc -m test/TestUnixFS.Mod"

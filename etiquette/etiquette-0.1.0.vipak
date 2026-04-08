@@ -1,0 +1,13 @@
+[PACKAGE]
+name    = etiquette
+author  = noch
+license = GPL-3
+version = 0.1.0
+
+[REMOTE]
+type = git
+uri  = https://github.com/norayr/etiquette
+tag  = 0.1.0
+
+[BUILD]
+run = "voc -m src/etiquette.Mod"
